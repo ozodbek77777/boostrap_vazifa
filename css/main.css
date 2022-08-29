@@ -1,0 +1,22 @@
+.header {
+  background-color: rgb(1, 78, 86);
+  align-items: center;
+}
+
+button {
+  background-color: rgb(1, 78, 86);
+  border-color: white;
+  color: white;
+  border-radius: 20px;
+  height: 35px;
+}
+
+.navbar {
+  margin-left: -200px;
+}
+
+.item {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */
