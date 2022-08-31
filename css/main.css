@@ -1,22 +1,76 @@
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .header {
   background-color: rgb(1, 78, 86);
   align-items: center;
 }
-
-button {
+.header button {
   background-color: rgb(1, 78, 86);
   border-color: white;
   color: white;
   border-radius: 20px;
   height: 35px;
 }
-
-.navbar {
+.header .navbar {
   margin-left: -200px;
 }
-
-.item {
+.header .item {
   text-decoration: none;
+}
+
+.hero {
+  background-color: rgb(1, 78, 86);
+  padding: 100px;
+}
+.hero div {
+  background-color: rgb(1, 78, 86);
+  padding: 30px;
+}
+
+.meet {
+  background-color: rgb(1, 78, 86);
+}
+.meet ul {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.meet li {
+  width: 30%;
+  margin-bottom: 30px;
+  border: 1px solid white;
+  background-color: rgb(4, 38, 42);
+}
+.meet li h5 {
+  color: rgb(74, 112, 15);
+}
+.meet li p {
+  color: white;
+}
+
+.some {
+  background-color: rgb(4, 38, 42);
+}
+.some img {
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.ready {
+  background-color: rgb(246, 126, 126);
+}
+.ready button {
+  background-color: rgb(246, 126, 126);
+}
+
+.footer {
+  background-color: rgb(4, 38, 42);
 }
 
 /*# sourceMappingURL=main.css.map */

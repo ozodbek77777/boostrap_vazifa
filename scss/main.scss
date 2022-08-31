@@ -1,7 +1,13 @@
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 .header{
     background-color:rgba(1, 78, 86, 1);
     align-items: center;
-}
+
 button{
     background-color: rgba(1, 78, 86, 1);
     border-color: white;
@@ -14,4 +20,50 @@ button{
 }
 .item{
     text-decoration: none;
+}
+}
+.hero{
+  background-color: rgba(1, 78, 86, 1);
+  padding: 100px;
+  div{
+    background-color: rgba(1, 78, 86, 1);
+    padding: 30px;
+  }
+}
+.meet{
+    background-color: rgba(1, 78, 86, 1);
+    ul{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    li{
+        width: 30%;
+        margin-bottom: 30px;
+        border: 1px solid white;
+        background-color:rgb(4, 38, 42);
+        h5{
+            color: rgb(74, 112, 15);
+        }
+        p{
+            color: white;
+        }
+    }
+}
+.some{
+    background-color:rgb(4, 38, 42);
+    img{
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+}
+.ready{
+    background-color: rgba(246, 126, 126, 1);
+    button{
+        background-color: rgba(246, 126, 126, 1);
+
+    }
+}
+.footer{
+    background-color: rgb(4, 38, 42);
 }
